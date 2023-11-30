@@ -1,0 +1,5 @@
+create database batchdb;
+
+
+INSERT INTO `batchdb`.`user` (email, email_verified, first_name, last_name, status, created_date, last_modified_date)
+ VALUES ('user2@example.com', true, 'Jane', 'Smith', 'APPROVED', '2023-11-28', '2023-11-28');
